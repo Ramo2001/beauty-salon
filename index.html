@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>صالون دي برينسس</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+ <!-- Top Bar -->
+ <div class="top-bar">
+ <div class="container">
+ <div class="top-bar-left">
+ <span>أفضل صالون في المدينة</span>
+ </div>
+ <div class="top-bar-right">
+ <a href="tel:+1234567890"> <img src="phone.svg" alt="Phone"> +1234567890</a>
+ </div>
+ </div>
+ </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+    <div class="logo">
+    <img src="logo.png" alt="Salon de Princess Logo">
+    </div>
+    <button class="nav-button">القائمة</button>
+    <nav class="main-nav">
+    <ul class="nav-list">
+    <li><a href="#services">خدماتنا</a></li>
+    <li><a href="#about">من نحن</a></li>
+    <li><a href="#gallery">معرض الصور</a></li>
+    <li><a href="#contact">اتصل بنا</a></li>
+    </ul>
+    </nav>
+    <button class="book-now">احجز الآن</button>
+    </div>
+   </header>
+  
+
+ <!-- Hero Section -->
+ <section class="hero">
+ <div class="container">
+ <h1>أفضل خدمات الصالون الموثوقة</h1>
+ <p>نحن هنا لنجعلك تشعرين بالجمال والثقة</p>
+ <button class="book-now">احجز الآن</button>
+ </div>
+ </section>
+
+ <!-- Best Our Services -->
+ <section id="best-services" class="section">
+    <div class="container">
+    <h2>الأفضل من خدماتنا</h2>
+    <div class="services-icons">
+    <div class="service-icon">
+    <img src="images/hair-cut.png" alt="Grooming">
+    <span>تهذيب</span>
+    </div>
+    <div class="service-icon">
+    <img src="images/skincare.png" alt="Skin Care">
+    <span>العناية بالبشرة</span>
+    </div>
+    <div class="service-icon">
+    <img src="images/waxing.png" alt="Body Essentials">
+    <span>العناية بالجسم</span>
+    </div>
+    <div class="service-icon">
+    <img src="images/makeup.png" alt="Bridal Hair Care">
+    <span>العناية بالشعر للعرائس</span>
+    </div>
+    </div>
+    </div>
+   </section>
+  
+ <!-- Services Section -->
+ <section id="services" class="section">
+ <div class="container">
+ <h2>خدماتنا</h2>
+ <div class="services-grid">
+ <div class="service">
+ <img src="haircut.jpg" alt="قص الشعر">
+ <h3>قص الشعر</h3>
+ <p>وصف قصير لخدمة قص الشعر...</p>
+ <button onclick="openWhatsApp('قص الشعر')">احجز الآن</button>
+ </div>
+ <div class="service">
+ <img src="makeup.jpg" alt="مكياج">
+ <h3>مكياج</h3>
+ <p>وصف قصير لخدمة المكياج...</p>
+ <button onclick="openWhatsApp('مكياج')">احجز الآن</button>
+ </div>
+ <div class="service">
+ <img src="facial.jpg" alt="العناية بالوجه">
+ <h3>العناية بالوجه</h3>
+ <p>وصف قصير لخدمة العناية بالوجه...</p>
+ <button onclick="openWhatsApp('العناية بالوجه')">احجز الآن</button>
+ </div>
+ <div class="service">
+ <img src="massage.jpg" alt="تدليك">
+ <h3>تدليك</h3>
+ <p>وصف قصير لخدمة التدليك...</p>
+ <button onclick="openWhatsApp('تدليك')">احجز الآن</button>
+ </div>
+ <div class="service">
+    <img src="massage.jpg" alt="تدليك">
+    <h3>تدليك</h3>
+    <p>وصف قصير لخدمة التدليك...</p>
+    <button onclick="openWhatsApp('تدليك')">احجز الآن</button>
+    </div>
+ <div class="service">
+ <img src="nailcare.jpg" alt="العناية بالأظافر">
+ <h3>العناية بالأظافر</h3>
+ <p>وصف قصير لخدمة العناية بالأظافر...</p>
+ <button onclick="openWhatsApp('العناية بالأظافر')">احجز الآن</button>
+ </div>
+ <div class="service">
+ <img src="waxing.jpg" alt="إزالة الشعر بالشمع">
+ <h3>إزالة الشعر بالشمع</h3>
+ <p>وصف قصير لخدمة إزالة الشعر بالشمع...</p>
+ <button onclick="openWhatsApp('إزالة الشعر بالشمع')">احجز الآن</button>
+ </div>
+ <div class="service">
+ <img src="hairtreatment.jpg" alt="علاج الشعر">
+ <h3>علاج الشعر</h3>
+ <p>وصف قصير لخدمة علاج الشعر...</p>
+ <button onclick="openWhatsApp('علاج الشعر')">احجز الآن</button>
+ </div>
+ <div class="service">
+ <img src="bridal.jpg" alt="تجهيز العرائس">
+ <h3>تجهيز العرائس</h3>
+ <p>وصف قصير لخدمة تجهيز العرائس...</p>
+ <button onclick="openWhatsApp('تجهيز العرائس')">احجز الآن</button>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- About Us Section -->
+ <section id="about" class="section">
+ <div class="container">
+ <div class="about-image">
+ <img src="about-us.jpg" alt="About Us Image">
+ </div>
+ <div class="about-content">
+ <h2>من نحن</h2>
+ <p>
+ صالون دي برينسس هو صالون فاخر يقدم مجموعة واسعة من الخدمات لعملائنا الكرام. نحن نستخدم فقط أفضل المنتجات لضمان حصولك على أفضل النتائج. فريقنا من الخبراء ملتزم بتزويدك بتجربة لا تُنسى.
+ </p>
+ </div>
+ </div>
+ </section>
+
+
+
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <div class="container">
+    <h2>منتجاتنا</h2>
+    <div class="products-grid">
+    <div class="product">
+    <a href="product1-url">
+    <img src="images/product1.jpg" alt="اسم المنتج 1">
+    <h3>اسم المنتج 1</h3>
+    <button>شراء الآن</button>
+    </a>
+    </div>
+    <div class="product">
+    <a href="product2-url">
+    <img src="images/product2.jpg" alt="اسم المنتج 2">
+    <h3>اسم المنتج 2</h3>
+    <button>شراء الآن</button>
+    </a>
+    </div>
+    <div class="product">
+    <a href="product3-url">
+    <img src="images/product3.png" alt="اسم المنتج 3">
+    <h3>اسم المنتج 3</h3>
+    <button>شراء الآن</button>
+    </a>
+    </div>
+    <div class="product">
+    <a href="product4-url">
+    <img src="images/product4.png" alt="اسم المنتج 4">
+    <h3>اسم المنتج 4</h3>
+    <button>شراء الآن</button>
+    </a>
+    </div>
+    </div>
+    </div>
+   </section>
+  
+ <!-- Gallery Section -->
+ <section id="gallery" class="section">
+    <div class="container">
+    <h2>معرض الصور</h2>
+    <div class="gallery-grid">
+    <img src="gallery1.jpg" alt="صورة 1">
+    <img src="gallery2.jpg" alt="صورة 2">
+    <img src="gallery3.jpg" alt="صورة 3">
+    <img src="gallery4.jpg" alt="صورة 4">
+    <img src="gallery5.jpg" alt="صورة 5">
+    <img src="gallery6.jpg" alt="صورة 6">
+    </div>
+    </div>
+    </section>
+
+ <!-- Videos Section -->
+ <section id="videos" class="section">
+ <div class="container">
+ <h2>فيديوهات</h2>
+ <div class="videos-container">
+ <div class="video">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+ </div>
+ <div class="video">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+ </div>
+ <div class="video">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+ </div>
+ <div class="video">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- Reviews Section -->
+ <section id="reviews" class="section">
+ <div class="container">
+ <h2>آراء العملاء</h2>
+ <div class="reviews-container">
+ <!-- Placeholder for Google Reviews -->
+ <p>يتم تحميل آراء العملاء من Google Business...</p>
+ </div>
+ </div>
+ </section>
+
+ <!-- Contact Us Section -->
+ <section id="contact" class="section">
+ <div class="container">
+ <h2>اتصل بنا</h2>
+ <div class="contact-grid">
+ <div class="contact-item">
+ <img src="location.svg" alt="العنوان">
+ <h3>العنوان</h3>
+ <p>شارع كذا، مدينة كذا</p>
+ </div>
+ <div class="contact-item">
+ <img src="phone.svg" alt="رقم الهاتف">
+ <h3>رقم الهاتف</h3>
+ <p><a href="tel:+1234567890">+1234567890</a></p>
+ </div>
+ <div class="contact-item">
+ <img src="instagram.svg" alt="إنستغرام">
+ <h3>إنستغرام</h3>
+ <p><a href="https://www.instagram.com/salon">@salon</a></p>
+ </div>
+ <div class="contact-item">
+ <img src="clock.svg" alt="أوقات العمل">
+ <h3>أوقات العمل</h3>
+ <p>السبت - الخميس: 9:00 صباحًا - 9:00 مساءً</p>
+ <p>الجمعة: 2:00 ظهرًا - 10:00 مساءً</p>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <!-- Google Map -->
+ <section id="map" class="section">
+ <div class="container">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.744448474262!2d-118.2436845!3d34.0522349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1684842444982!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+ </section>
+
+ <!-- Footer -->
+ <footer>
+ <div class="container">
+ <p>&copy; 2025 صالون دي برينسس</p>
+ </div>
+ </footer>
+<script src="script.js"></script>
+ <script>
+ function openWhatsApp(service) {
+ var phoneNumber = "+1234567890"; // Replace with your number
+ var message = "أرغب في حجز خدمة: " + service;
+ var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+ window.open(whatsappURL, '_blank');
+ }
+ </script>
+
+</body>
+</html>
